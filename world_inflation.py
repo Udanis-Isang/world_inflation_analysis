@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1tTsRpF4m-MfI1pWp0iVHIVp-U3lfhZJQ
 """
 
-!pip install country_converter
+#pip install country_converter
 
 import pandas as pd
 import numpy as np
@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import requests
-from country_converter import CountryConverter
+#from country_converter import CountryConverter
 import textwrap
 
 import warnings
@@ -54,8 +54,8 @@ demarcation()
 print(df_data.info())
 demarcation()
 
-cc = CountryConverter()
-df_data['IS03_country'] = cc.convert(df_data['country'], to="iso3")
+#cc = CountryConverter()
+#df_data['IS03_country'] = cc.convert(df_data['country'], to="iso3")
 df_data.head()
 
 df_data.info()
